@@ -27,7 +27,6 @@ public class Punto {
         return y;
     }
 
-    @Override
     public String toString(){
         return String.format("Punto %d, (%f, %f)", id, x, y);
     }
@@ -37,9 +36,6 @@ public class Punto {
         // Le decimos al programa el número de puntos que queremos crear
         int numPuntos = 50;
 
-        // Comenzamos el id en 0
-        int id = 0;
-
         // Creamos listaPuntos del tipo ArrayList
         ArrayList<Punto> listaPuntos = new ArrayList<>();
         for (int i = 0; i < numPuntos; i++){
@@ -48,7 +44,7 @@ public class Punto {
             double y = (Math.random() * 100);
 
             // Añadimos a la lista de puntos el punto generado
-            listaPuntos.add(new Punto(id,x,y));
+            listaPuntos.add(new Punto(i,x,y));
         }
 
         // Devolvemos la lista de puntos generados
