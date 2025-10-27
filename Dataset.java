@@ -13,7 +13,7 @@ public class Dataset {
             double x = (Math.random() * 100);
             double y = (Math.random() * 100);
 
-            // Añadimos a la lista de puntos el punto generado
+            // Añadimos a la lista de puntos el punto generad
             listaPuntos.add(new Punto(i,x,y));
         }
 
