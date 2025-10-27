@@ -1,4 +1,3 @@
-import java.io.*;
 import java.util.*;
 public class Punto {
 
@@ -27,6 +26,7 @@ public class Punto {
         return y;
     }
 
+    // Pasamos a String para dar formato a la visualización del punto
     public String toString(){
         return String.format("Punto %d, (%f, %f)", id, x, y);
     }
