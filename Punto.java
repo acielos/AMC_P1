@@ -47,6 +47,8 @@ public class Punto {
             listaPuntos.add(new Punto(i,x,y));
         }
 
+        Quicksort.sort(listaPuntos);
+
         // Devolvemos la lista de puntos generados
         return listaPuntos;
     }

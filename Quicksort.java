@@ -6,7 +6,7 @@ public final class Quicksort {
     * privado quicksort para que la ordene según el algoritmo quicksort.
     */
 
-    public static void QuickSort(List<Punto> lista){
+    public static void sort(List<Punto> lista){
         quicksort(lista, 0, lista.size()-1);
     }
 
