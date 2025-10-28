@@ -7,12 +7,12 @@ public class Dataset {
     //                              Método para generar los datasets aleatorios                                      //
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-    public static ArrayList<Punto> generarDataset(){
+    public static List<Punto> generarDataset(){
         // Le decimos al programa el número de puntos que queremos crear
         int numPuntos = 50;
 
         // Creamos listaPuntos del tipo ArrayList
-        ArrayList<Punto> listaPuntos = new ArrayList<>();
+        List<Punto> listaPuntos = new ArrayList<>();
         for (int i = 0; i < numPuntos; i++){
             // Generamos aleatoriamente las coordenadas x e y
             double x = (Math.random() * 100);
