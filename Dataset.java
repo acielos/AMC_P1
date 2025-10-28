@@ -93,4 +93,16 @@ public class Dataset {
     public static void ordenaDataset(List<Punto> listaPuntos){
         Quicksort.sort(listaPuntos);
     }
+
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    //                                    Método para copiar los datasets                                            //
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    public static List<Punto> copia(List<Punto> dataset){
+        List<Punto> listaCopiada = new ArrayList<Punto>(dataset.size());
+        for (Punto p : dataset){
+            listaCopiada.add(new Punto(p.getID(), p.getX(), p.getY()));
+        }
+        return listaCopiada;
+    }
 }
