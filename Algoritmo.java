@@ -8,11 +8,12 @@ public abstract class Algoritmo {
     protected List<Punto> dataset;
     protected double mejor_distancia;
     protected Punto[] mejor_par;
-    protected DistanciaEuclidea calc_distancia;
+    protected DistanciaEuclidea num_distancias;
     protected double tiempoEjecucion;
 
     // Método run que deberán usar todas las clases hijas
     public abstract void run();
+
 
 
     /*  POSIBILIDAD DE CAMBIO DE CLASE  */
