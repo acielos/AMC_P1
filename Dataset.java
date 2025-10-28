@@ -53,7 +53,7 @@ public class Dataset {
 
             // Pasamos ahora a la parte de escribir cada uno de los puntos
             for (int i = 0; i < dimension; i++){
-                escribir.write(listaPuntos.get(i).getID() + " " + listaPuntos.get(i).getX() + " " + listaPuntos.get(i).getY());
+                escribir.write("\t" + listaPuntos.get(i).getID() + "\t" + listaPuntos.get(i).getX() + "\t" + listaPuntos.get(i).getY());
                 escribir.newLine();
             }
 
