@@ -2,21 +2,14 @@ import java.util.*;
 public class Punto {
 
     // Declaramos los atributos de la clase punto
-    // private int id;
     private double x;
     private double y;
 
     // Declaramos el constructor
     public Punto(int id, double x, double y){
-        //this.id = id;
         this.x = x;
         this.y = y;
     }
-
-    // Declaramos los getters
-//    public int getID(){
-//        return id;
-//    }
 
     public double getX(){
         return x;
