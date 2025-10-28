@@ -17,10 +17,10 @@ public class main {
 
         while(opcion != 0) {
             System.out.println("\n");
-            System.out.println(" *                         ----- MENÚ -----                        *");
+            System.out.println(" *                        ------ MENÚ ------                       *");
             System.out.println("\t1. Generar Dataset aleatorio");
-            System.out.println("\t2. Abrir Dataset existente");
-            System.out.println("\t3. Comprobar estrategias (única)");
+            System.out.println("\t2. Cargar Dataset existente");
+            System.out.println("\t3. Comprobar estrategia (única)");
             System.out.println("\t4. Comprobar dos estrategias");
             System.out.println("\t5. Comprobar todas las estrategias");
             System.out.println("\t6. Generar dataset 'Caso Peor'");
@@ -38,6 +38,7 @@ public class main {
                     Dataset.escribir(nombre, dataset);
                     break;
                 case 2:
+                    System.out.println("DISPONIBLE PRÓXIMAMENTE");
                     break;
                 case 3:
                     break;
