@@ -14,6 +14,7 @@ public class main {
         Scanner sc = new Scanner(System.in);
 
         int opcion = 9;
+        int opcionEstrategia = 9;
 
         while(opcion != 0) {
             System.out.println("\n");
@@ -41,6 +42,29 @@ public class main {
                     System.out.println("DISPONIBLE PRÓXIMAMENTE");
                     break;
                 case 3:
+                    System.out.println(" *                     ------ ESTRATEGIAS ------                    *");
+                    System.out.println(" ");
+                    System.out.println("\t 1. Estrategia Exhaustivo");
+                    System.out.println("\t 2. Estrategia Exhaustivo con poda");
+                    System.out.println("\t 3. Estrategia Divide y Vencerás");
+                    System.out.println("\t 5. Estrategia Divide y Vencerás mejorada");
+                    System.out.println("\t ----------------------------------------");
+                    System.out.print("\t Seleccione una opción: ");
+                    opcionEstrategia = sc.nextInt();
+
+                    Algoritmo algoritmo;
+
+//                    switch (opcionEstrategia){
+//                        case 1:
+//                            break;
+//                        case 2:
+//                            break;
+//                        case 3:
+//                            break;
+//                        case 4:
+//                            break;
+//                    }
+
                     break;
                 case 4:
                     break;
