@@ -4,8 +4,8 @@ public abstract class Algoritmo {
 
     protected List<Punto> dataset;
     protected double mejor_distancia = Double.POSITIVE_INFINITY;
-    protected List<Punto> mejor_par;
-    protected DistanciaEuclidea num_distancias;
+    protected List<Punto> mejor_par = new ArrayList<>();
+    protected DistanciaEuclidea distancia_euclidea = new DistanciaEuclidea();
 
     // Método run que deberán usar todas las clases hijas
     public abstract void run();
@@ -22,6 +22,6 @@ public abstract class Algoritmo {
 
     // Método para devolver las veces que hemos calculado distancias
     public int distanciasCalculadas(){
-        return num_distancias.calculos;
+        return distancia_euclidea.calculos;
     }
 }

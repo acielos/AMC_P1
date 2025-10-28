@@ -2,7 +2,7 @@ public class DistanciaEuclidea {
 
     public int calculos = 0;
 
-    public double distanciaEuclidea(Punto a, Punto b){
+    public double calcula(Punto a, Punto b){
 
         calculos++;
 
