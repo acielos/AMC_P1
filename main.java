@@ -57,7 +57,7 @@ public class main {
 
                     switch (opcionEstrategia){
                         case 1:
-                            ArrayList<Punto> listaExhaustivo = (ArrayList<Punto>) Dataset.generarDataset();
+                            List<Punto> listaExhaustivo = Dataset.generarDataset();
                             algoritmo = new Exhaustivo(listaExhaustivo);
                             algoritmo.run();
                             System.out.println(" ");
@@ -66,7 +66,7 @@ public class main {
                             System.out.println(algoritmo.distanciasCalculadas());
                             break;
                         case 2:
-                            ArrayList<Punto> listaPoda = (ArrayList<Punto>) Dataset.generarDataset();
+                            List<Punto> listaPoda = Dataset.generarDataset();
                             algoritmo = new ExhaustivoPoda(listaPoda);
                             algoritmo.run();
                             System.out.println(" ");
