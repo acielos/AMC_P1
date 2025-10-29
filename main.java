@@ -1,3 +1,4 @@
+import javax.xml.crypto.Data;
 import java.io.*;
 import java.util.*;
 
@@ -54,16 +55,30 @@ public class main {
 
                     Algoritmo algoritmo;
 
-//                    switch (opcionEstrategia){
-//                        case 1:
-//                            break;
-//                        case 2:
-//                            break;
-//                        case 3:
-//                            break;
-//                        case 4:
-//                            break;
-//                    }
+                    switch (opcionEstrategia){
+                        case 1:
+                            ArrayList<Punto> listaExhaustivo = (ArrayList<Punto>) Dataset.generarDataset();
+                            algoritmo = new Exhaustivo(listaExhaustivo);
+                            algoritmo.run();
+                            System.out.println(" ");
+                            System.out.println(algoritmo.mejor_distancia);
+                            System.out.println(algoritmo.mejor_par);
+                            System.out.println(algoritmo.distanciasCalculadas());
+                            break;
+                        case 2:
+                            ArrayList<Punto> listaPoda = (ArrayList<Punto>) Dataset.generarDataset();
+                            algoritmo = new ExhaustivoPoda(listaPoda);
+                            algoritmo.run();
+                            System.out.println(" ");
+                            System.out.println(algoritmo.mejor_distancia);
+                            System.out.println(algoritmo.mejor_par);
+                            System.out.println(algoritmo.distanciasCalculadas());
+                            break;
+                        case 3:
+                            break;
+                        case 4:
+                            break;
+                    }
 
                     break;
                 case 4:
