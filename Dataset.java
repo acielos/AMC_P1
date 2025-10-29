@@ -9,7 +9,7 @@ public class Dataset {
 
     public static List<Punto> generarDataset(){
         // Le decimos al programa el número de puntos que queremos crear
-        int numPuntos = 50;
+        int numPuntos = 100000;
 
         // Creamos listaPuntos del tipo ArrayList
         List<Punto> listaPuntos = new ArrayList<>();
