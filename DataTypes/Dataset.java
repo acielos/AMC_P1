@@ -1,5 +1,7 @@
 package DataTypes;
 
+import Algoritmos.*;
+
 import java.util.*;
 import java.io.*;
 

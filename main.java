@@ -1,5 +1,6 @@
 import Algoritmos.*;
 import DataTypes.*;
+import Utils.*;
 
 import java.io.*;
 import java.util.*;

@@ -1,9 +1,11 @@
+package Algoritmos;
+
 import DataTypes.Punto;
 
 import java.util.*;
 public final class Quicksort {
     /*
-    * Creamos el método público para el uso del algoritmo Quicksort:
+    * Creamos el método público para el uso del algoritmo Algoritmos.Quicksort:
     * pasamos como parámetro una lista de puntos [(x,y)...(m,n)] y esta lista la pasamos al método
     * privado quicksort para que la ordene según el algoritmo quicksort.
     */
