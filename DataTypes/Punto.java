@@ -1,3 +1,5 @@
+package DataTypes;
+
 public class Punto {
 
     // Declaramos los atributos de la clase punto

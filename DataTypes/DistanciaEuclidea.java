@@ -1,3 +1,5 @@
+package DataTypes;
+
 public class DistanciaEuclidea {
 
     public int calculos = 0;

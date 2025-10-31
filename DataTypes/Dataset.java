@@ -1,3 +1,5 @@
+package DataTypes;
+
 import java.util.*;
 import java.io.*;
 
@@ -70,12 +72,12 @@ public class Dataset {
     //                                     Método para leer los datasets                                             //
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-//    public static Punto[] lecturaFicheros(String nombre) throws FileNotFoundException {
+//    public static DataTypes.Punto[] lecturaFicheros(String nombre) throws FileNotFoundException {
 //        BufferedReader lectura = new BufferedReader(new FileReader(nombre));
 //
 //        String linea;
 //        int dimension = 0;
-//        Punto[] tamano = null;
+//        DataTypes.Punto[] tamano = null;
 //
 //        try {
 //            while ((linea = lectura.readLine()) != null){

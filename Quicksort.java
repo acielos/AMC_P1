@@ -1,3 +1,5 @@
+import DataTypes.Punto;
+
 import java.util.*;
 public final class Quicksort {
     /*

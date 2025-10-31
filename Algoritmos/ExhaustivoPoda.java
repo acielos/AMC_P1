@@ -1,3 +1,7 @@
+package Algoritmos;
+
+import DataTypes.*;
+
 import java.util.*;
 
 public class ExhaustivoPoda extends Algoritmo {

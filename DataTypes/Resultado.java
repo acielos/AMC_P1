@@ -1,3 +1,5 @@
+package DataTypes;
+
 public class Resultado {
 
     private Punto punto1;

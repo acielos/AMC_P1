@@ -1,3 +1,6 @@
+package Algoritmos;
+import DataTypes.*;
+
 import java.util.*;
 
 public abstract class Algoritmo {

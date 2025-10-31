@@ -1,4 +1,6 @@
-import javax.xml.crypto.Data;
+import Algoritmos.*;
+import DataTypes.*;
+
 import java.io.*;
 import java.util.*;
 
@@ -20,8 +22,8 @@ public class main {
         while(opcion != 0) {
             System.out.println("\n");
             System.out.println(" *                        ------ MENÚ ------                       *");
-            System.out.println("\t1. Generar Dataset aleatorio");
-            System.out.println("\t2. Cargar Dataset existente");
+            System.out.println("\t1. Generar DataTypes.Dataset aleatorio");
+            System.out.println("\t2. Cargar DataTypes.Dataset existente");
             System.out.println("\t3. Comprobar estrategia (única)");
             System.out.println("\t4. Comprobar dos estrategias");
             System.out.println("\t5. Comprobar todas las estrategias");
@@ -45,8 +47,8 @@ public class main {
                 case 3:
                     System.out.println(" *                     ------ ESTRATEGIAS ------                    *");
                     System.out.println(" ");
-                    System.out.println("\t 1. Estrategia Exhaustivo");
-                    System.out.println("\t 2. Estrategia Exhaustivo con poda");
+                    System.out.println("\t 1. Estrategia Algoritmos.Exhaustivo");
+                    System.out.println("\t 2. Estrategia Algoritmos.Exhaustivo con poda");
                     System.out.println("\t 3. Estrategia Divide y Vencerás");
                     System.out.println("\t 5. Estrategia Divide y Vencerás mejorada");
                     System.out.println("\t ----------------------------------------");
@@ -95,10 +97,10 @@ public class main {
 
 
 //        // Zona de pruebas
-//        ArrayList<Punto> lista = (ArrayList<Punto>) Dataset.generarDataset();
-//        Dataset.escribir("dataset1", lista);
+//        ArrayList<DataTypes.Punto> lista = (ArrayList<DataTypes.Punto>) DataTypes.Dataset.generarDataset();
+//        DataTypes.Dataset.escribir("dataset1", lista);
 //
-//        Algoritmo a = new Exhaustivo(lista);
+//        Algoritmos.Algoritmo a = new Algoritmos.Exhaustivo(lista);
 //        a.run();
 //        System.out.println(lista);
 //        System.out.println(" ");
